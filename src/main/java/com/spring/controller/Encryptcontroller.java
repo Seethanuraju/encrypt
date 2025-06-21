@@ -12,7 +12,7 @@ import com.spring.repo.Encryptrepo;
 import com.spring.services.Secretmsg;
 
 @RestController
-@CrossOrigin(origins="http://localhost:5173")
+@CrossOrigin(origins="https://lock-talk-rouge.vercel.app/")
 public class Encryptcontroller {
 	@Autowired
 	private Encryptrepo er;
